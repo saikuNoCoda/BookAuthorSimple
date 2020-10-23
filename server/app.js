@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 
-const mongooseConnection = "your connectionstring";
+const mongooseConnection = "your connection string";
 
 mongoose.connect(mongooseConnection,(err) => {
     if(err) console.log(err);
